@@ -5,7 +5,7 @@ function banner () {
   <div className = "font-th w-full h-full relative flex flex-col lg:flex-row items-center justify-center text-center gap-10 p-5">
 
     <div className = "lg:py-18 py-10 flex flex-col items-center text-center bg-white rounded-3xl">
-      <div className="animate-text font-th font-extrabold text-transparent bg-clip-text bg-gradient-to-tr from-cyan-200 via-cyan-500 to-blue-600 text-9xl">สวัสดี!</div>
+      <div className="animate-text font-th font-extrabold text-transparent bg-clip-text bg-gradient-to-tr from-cyan-200 via-cyan-500 to-blue-600 text-9xl">HELLO!</div>
       <div className = "bg-gradient-to-br w-72 text-center from-cyan-400 to-blue-500 rounded-3xl font-prompt font-md text-white text-lg">#BEARTAI #YWC18 #SSP74</div>
 
       <div className = "pt-10">
