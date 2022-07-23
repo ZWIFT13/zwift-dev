@@ -21,11 +21,11 @@ const textInfoContTH =[
 function card() {
 
   return ( 
-  <div className="font-th py-28 sm:py-20 xl:py-60 lg:py-96 justify-center w-full items-center flex flex-col xl:flex-row relative gap-40 ">
+  <div className="font-th py-28 sm:py-20 xl:py-60 lg:py-96 justify-center w-full items-center flex flex-col xl:flex-row relative gap-20 lg:gap-40 ">
 
     <div>
-      <div className="w-96 highlight border-blue-200">
-        WHO I AM?..<span className="animate-ping font-secondary">I</span>
+      <div className=" highlight border-blue-200">
+        ZWIFT..?<span className="animate-ping font-secondary">I</span>
       </div>
       <div className="font-secondary px-3 py-1">#ZWIFT #SWIFFY</div>
     </div>
