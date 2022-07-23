@@ -8,8 +8,16 @@ import Header from '../components/header/header'
 
 export default function HomePage() {
 
+  const [hasMounted, setHasMounted] = React.useState(false);
+  React.useEffect(() => {
+    setHasMounted(true);
+  }, []);
+  if (!hasMounted) {
+    return null;
+  }
+
   return (
-    <div className="">
+    <div className="flex flex-col h-screen justify-between">
       <Header/>
       <Banner></Banner>
       <Footer></Footer>

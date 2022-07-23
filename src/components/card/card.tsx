@@ -21,7 +21,7 @@ const textInfoContTH =[
 function card() {
 
   return ( 
-  <div className="font-th py-52 xl:py-60 lg:py-96 justify-center w-full items-center flex flex-col xl:flex-row relative gap-40 ">
+  <div className="font-th py-28 sm:py-20 xl:py-60 lg:py-96 justify-center w-full items-center flex flex-col xl:flex-row relative gap-40 ">
 
     <div>
       <div className="w-96 highlight border-blue-200">
@@ -48,7 +48,7 @@ function card() {
           </div>
 
           <div className = "py-5 text-end px-5">
-              <button className="btn-secondary hover:text-cyan-500">เพิ่มเติม</button>
+              <a href = "https://www.beartai.com/" className="btn-secondary hover:text-cyan-500">ผลงาน</a>
           </div>
         </div>
 
@@ -71,7 +71,7 @@ function card() {
           </div>
 
           <div className = "py-5 text-end px-5">
-              <button className="btn-secondary hover:text-orange-500">เพิ่มเติม</button>
+              <a href = "https://www.beartai.com/author/imswiftie" className="btn-secondary hover:text-orange-500">ผลงาน</a>
           </div>
         </div>
     </div>

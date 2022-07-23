@@ -35,7 +35,7 @@ function blogpost () {
   return ( 
   <div className="font-th justify-center w-full items-center flex flex-col relative gap-20 px-20 py-20 ">
 
-    <div className="highlight w-70">
+    <div className="highlight w-70 border-white">
       <div className="text-white ">
         MY BLOG..<span className="text-white animate-ping font-secondary">I</span>
       </div>

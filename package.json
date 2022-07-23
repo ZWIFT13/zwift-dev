@@ -35,7 +35,6 @@
     "react-icons": "^4.4.0",
     "storybook": "^6.5.9",
     "style": "^0.0.3",
-    "styled-components": "^5.3.5",
     "tailwind-merge": "^1.4.0",
     "vercel": "^27.2.0"
   },

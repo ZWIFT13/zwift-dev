@@ -6,14 +6,14 @@ const picture = [
 
 function info () {
   return ( 
-  <div className="justify-between w-full h-1/3 items-center flex flex-col xl:flex-row relative bg-gradient-to-tr from-cyan-300 to-blue-800 p-52 gap-10 animate-[text_4s_ease-in-out_infinite]">
+  <div className="justify-center gap-10 lg:gap-40 w-full h-1/3 items-center flex flex-col xl:flex-row relative bg-gradient-to-tr from-cyan-300 to-blue-800 p-52 animate-[text_4s_ease-in-out_infinite]">
 
     <div className = "flex relative h-80 w-80">
       <img className="img-responsive ratio-square object-cover rounded-3xl  transform hover:-translate-y-2 transition-transform" src={picture[0]} alt="" />
     </div>
 
     <div>
-      <div className="highlight w-70">
+      <div className="highlight w-70 border-white">
         <div className="text-white ">
           FOLLOW ME..<span className="text-white animate-ping font-secondary">I</span>
         </div>
