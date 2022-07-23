@@ -9,7 +9,7 @@ import Info from '../components/info/info'
 function AboutPage() {
   return ( 
   
-  <div className="flex flex-col h-screen justify-between">
+  <div className="">
     <Header></Header>
     <Card></Card>
     <Info></Info>

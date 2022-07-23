@@ -25,7 +25,7 @@ function card() {
 
     <div>
       <div className="w-96 highlight border-blue-200">
-        WHO AM I?..<span className="animate-ping font-secondary">I</span>
+        WHO I AM?..<span className="animate-ping font-secondary">I</span>
       </div>
       <div className="font-secondary px-3 py-1">#ZWIFT #SWIFFY</div>
     </div>
